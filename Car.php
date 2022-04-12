@@ -19,14 +19,6 @@ class Car extends Vehicle
         parent::__construct($color, $nbSeats);
         $this->energy = $energy;
     }
-    
-    public function division(int $nombre) :float
-    {
-        if ($nombre === 0) {
-            throw new Exception("division by zero");
-        }
-        return 1 / $nombre;
-    }
 
     public function forward(): string
     {
