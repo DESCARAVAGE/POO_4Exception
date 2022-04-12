@@ -9,7 +9,7 @@
     } catch(Exception $e) {
         echo "<br> Le frein à main est enclenché !! HMMMM Ne reproduit pas cette erreur Homer!!";
     }  finally {
-        echo "<br> Tout est bon on peut commencer !";
+        echo "<br> Ma voiture roule comme un donut";
 
     }  
     
